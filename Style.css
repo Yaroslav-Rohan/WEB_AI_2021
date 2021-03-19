@@ -178,7 +178,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Profile */
 .main {
   margin: 0 auto;
-  flex: 70%;
+  flex: 50%;
   background-color: black;
   padding: 20px;
   text-align: center;
@@ -186,7 +186,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .side {
-  flex: 30%;
+  flex: 50%;
   background-color: black;
   padding: 20px;
   text-align: center;
