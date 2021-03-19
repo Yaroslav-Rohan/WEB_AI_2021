@@ -322,6 +322,7 @@ textarea {
 
 @media screen and (max-width: 600px) {
   .main {
+    margin-top: 20px;
     width: 100%;
     display: block;
     margin-bottom: 20px;
@@ -330,10 +331,9 @@ textarea {
 
 @media screen and (max-width: 600px) {
   .side {
+    margin-top: 20px;
     width: 100%;
     display: block;
     margin-bottom: 20px;
   }
 }
-
-/*# sourceMappingURL=style.css.map */

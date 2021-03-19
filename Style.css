@@ -285,6 +285,7 @@ textarea {
     float: none;
   }
 }
+
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
@@ -292,20 +293,21 @@ textarea {
     margin-bottom: 20px;
   }
 }
+
 @media screen and (max-width: 600px) {
   .main {
+    margin-top: 20px;
     width: 100%;
     display: block;
     margin-bottom: 20px;
   }
 }
+
 @media screen and (max-width: 600px) {
   .side {
+    margin-top: 20px;
     width: 100%;
     display: block;
     margin-bottom: 20px;
   }
 }
-/*# sourceMappingURL=style.css.map */
-
-/*# sourceMappingURL=style.css.map */
