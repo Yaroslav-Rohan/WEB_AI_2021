@@ -5,7 +5,7 @@ body {
   margin: 0;
   -webkit-background-size: cover;
   background-size: cover;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 15px;
   line-height: 1.5;
   color: black;
@@ -55,14 +55,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .intro__title {
-  font-size: 90px;
+  font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1;
 }
 
 .intro__subtitle {
-  font-size: 60px;
+  font-size: 20px;
 }
 
 .intro__subtitle2 {
@@ -83,6 +83,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-right {
+  padding: 12px;
+  float: right;
+
   a {
     float: left;
     color: #C2B500;
@@ -98,9 +101,6 @@ h1, h2, h3, h4, h5, h6 {
       color: black;
     }
   }
-
-  padding: 12px;
-  float: right;
 }
 
 /* about */
@@ -166,7 +166,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #C2B500;
   text-transform: uppercase;
   text-decoration: none;
-  transition: background .1s linear, color .1s linear;
+  transition: background 0.1s linear, color 0.1s linear;
 
   &:hover {
     background-color: #C2B500;
@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
   color: black;
   text-transform: uppercase;
   text-decoration: none;
-  transition: background .1s linear, color .1s linear;
+  transition: background 0.1s linear, color 0.1s linear;
 
   &:hover {
     background-color: black;
@@ -319,3 +319,21 @@ textarea {
     margin-bottom: 20px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .main {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .side {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

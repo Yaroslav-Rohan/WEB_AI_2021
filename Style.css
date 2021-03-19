@@ -52,14 +52,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .intro__title {
-  font-size: 90px;
+  font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1;
 }
 
 .intro__subtitle {
-  font-size: 60px;
+  font-size: 20px;
 }
 
 .intro__subtitle2 {
@@ -292,5 +292,20 @@ textarea {
     margin-bottom: 20px;
   }
 }
+@media screen and (max-width: 600px) {
+  .main {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .side {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */
