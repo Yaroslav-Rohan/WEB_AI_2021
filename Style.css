@@ -305,7 +305,7 @@ textarea {
 
 @media screen and (max-width: 600px) {
   .side {
-    margin-top: 20px;
+    margin-top: 80px;
     width: 100%;
     display: block;
     margin-bottom: 20px;
